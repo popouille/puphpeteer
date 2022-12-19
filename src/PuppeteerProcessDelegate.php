@@ -1,9 +1,9 @@
 <?php
 
-namespace Nesk\Puphpeteer;
+namespace NigelCunningham\Puphpeteer;
 
-use Nesk\Rialto\Traits\UsesBasicResourceAsDefault;
-use Nesk\Rialto\Interfaces\ShouldHandleProcessDelegation;
+use NigelCunningham\Rialto\Traits\UsesBasicResourceAsDefault;
+use NigelCunningham\Rialto\Interfaces\ShouldHandleProcessDelegation;
 
 class PuppeteerProcessDelegate implements ShouldHandleProcessDelegation
 {
@@ -14,7 +14,7 @@ class PuppeteerProcessDelegate implements ShouldHandleProcessDelegation
      */
     public function resourceFromOriginalClassName(string $className): ?string
     {
-        $class = "Nesk\\Puphpeteer\\Resources\\$className";
+        $class = "NigelCunningham\\Puphpeteer\\Resources\\$className";
 
         return class_exists($class) ? $class : null;
     }

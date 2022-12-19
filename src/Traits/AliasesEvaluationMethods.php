@@ -1,8 +1,8 @@
 <?php
 
-namespace Nesk\Puphpeteer\Traits;
+namespace NigelCunningham\Puphpeteer\Traits;
 
-use Nesk\Rialto\Data\JsFunction;
+use NigelCunningham\Rialto\Data\JsFunction;
 
 /**
  * @method bool|int|float|string|array|null querySelectorEval(string $selector, JsFunction $pageFunction, bool|int|float|string|array|null|JSHandle ...args)

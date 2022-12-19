@@ -1,13 +1,13 @@
 <?php
 
-namespace Nesk\Puphpeteer\Resources;
+namespace NigelCunningham\Puphpeteer\Resources;
 
-use Nesk\Puphpeteer\Traits\AliasesSelectionMethods;
-use Nesk\Puphpeteer\Traits\AliasesEvaluationMethods;
+use NigelCunningham\Puphpeteer\Traits\AliasesSelectionMethods;
+use NigelCunningham\Puphpeteer\Traits\AliasesEvaluationMethods;
 
 /**
- * @method \Nesk\Puphpeteer\Resources\ElementHandle<mixed>|null asElement()
- * @method \Nesk\Puphpeteer\Resources\Frame|null contentFrame()
+ * @method \NigelCunningham\Puphpeteer\Resources\ElementHandle<mixed>|null asElement()
+ * @method \NigelCunningham\Puphpeteer\Resources\Frame|null contentFrame()
  * @method void hover()
  * @method void click(array<string, mixed> $options = null)
  * @method string[] select(string ...$values)

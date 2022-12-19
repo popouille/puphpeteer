@@ -1,8 +1,8 @@
 <?php
 
-namespace Nesk\Puphpeteer\Tests;
+namespace NigelCunningham\Puphpeteer\Tests;
 
-use Nesk\Rialto\Exceptions\Node\FatalException as NodeFatalException;
+use NigelCunningham\Rialto\Exceptions\Node\FatalException as NodeFatalException;
 
 class RiskyResource
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Nesk\Puphpeteer\Resources;
+namespace NigelCunningham\Puphpeteer\Resources;
 
 /**
  * @method mixed send(mixed $method, mixed ...$paramArgs)

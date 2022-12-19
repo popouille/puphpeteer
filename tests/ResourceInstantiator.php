@@ -1,8 +1,8 @@
 <?php
 
-namespace Nesk\Puphpeteer\Tests;
+namespace NigelCunningham\Puphpeteer\Tests;
 
-use Nesk\Rialto\Data\JsFunction;
+use NigelCunningham\Rialto\Data\JsFunction;
 
 class ResourceInstantiator
 {

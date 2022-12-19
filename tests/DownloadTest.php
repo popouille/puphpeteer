@@ -1,11 +1,11 @@
 <?php
 
-namespace Nesk\Puphpeteer\Tests;
+namespace NigelCunningham\Puphpeteer\Tests;
 
-use Nesk\Puphpeteer\Puppeteer;
-use Nesk\Rialto\Data\JsFunction;
+use NigelCunningham\Puphpeteer\Puppeteer;
+use NigelCunningham\Rialto\Data\JsFunction;
 use PHPUnit\Framework\ExpectationFailedException;
-use Nesk\Puphpeteer\Resources\ElementHandle;
+use NigelCunningham\Puphpeteer\Resources\ElementHandle;
 
 class DownloadTest extends TestCase
 {

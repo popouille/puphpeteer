@@ -1,8 +1,8 @@
 <?php
 
-namespace Nesk\Puphpeteer\Command;
+namespace NigelCunningham\Puphpeteer\Command;
 
-use Nesk\Puphpeteer\Puppeteer;
+use NigelCunningham\Puphpeteer\Puppeteer;
 use Symfony\Component\Process\Process;
 use Symfony\Component\Console\Command\Command;
 use Symfony\Component\Console\Input\InputOption;
@@ -16,7 +16,7 @@ final class GenerateDocumentationCommand extends Command
     private const BUILD_DIR = __DIR__.'/../../.build';
     private const NODE_MODULES_DIR = __DIR__.'/../../node_modules';
     private const RESOURCES_DIR = __DIR__.'/../Resources';
-    private const RESOURCES_NAMESPACE = 'Nesk\\Puphpeteer\\Resources';
+    private const RESOURCES_NAMESPACE = 'NigelCunningham\\Puphpeteer\\Resources';
 
     protected static $defaultName = 'doc:generate';
 

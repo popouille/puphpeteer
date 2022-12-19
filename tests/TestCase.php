@@ -1,8 +1,8 @@
 <?php
 
-namespace Nesk\Puphpeteer\Tests;
+namespace NigelCunningham\Puphpeteer\Tests;
 
-use Nesk\Puphpeteer\Puppeteer;
+use NigelCunningham\Puphpeteer\Puppeteer;
 use Monolog\Logger;
 use ReflectionClass;
 use Psr\Log\LogLevel;

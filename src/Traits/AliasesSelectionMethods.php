@@ -1,6 +1,6 @@
 <?php
 
-namespace Nesk\Puphpeteer\Traits;
+namespace NigelCunningham\Puphpeteer\Traits;
 
 /**
  * @method ElementHandle|null querySelector(string $selector)

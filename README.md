@@ -15,7 +15,7 @@ Here are some examples [borrowed from Puppeteer's documentation](https://github.
 **Example** - navigating to https://example.com and saving a screenshot as *example.png*:
 
 ```php
-use Nesk\Puphpeteer\Puppeteer;
+use NigelCunningham\Puphpeteer\Puppeteer;
 
 $puppeteer = new Puppeteer;
 $browser = $puppeteer->launch();
@@ -30,8 +30,8 @@ $browser->close();
 **Example** - evaluate a script in the context of the page:
 
 ```php
-use Nesk\Puphpeteer\Puppeteer;
-use Nesk\Rialto\Data\JsFunction;
+use NigelCunningham\Puphpeteer\Puppeteer;
+use NigelCunningham\Rialto\Data\JsFunction;
 
 $puppeteer = new Puppeteer;
 
@@ -132,7 +132,7 @@ $divs = $page->querySelectorAll('div');
 Functions evaluated in the context of the page must be written [with the `JsFunction` class](https://github.com/nesk/rialto/blob/master/docs/api.md#javascript-functions), the body of these functions must be written in JavaScript instead of PHP.
 
 ```php
-use Nesk\Rialto\Data\JsFunction;
+use NigelCunningham\Rialto\Data\JsFunction;
 
 $pageFunction = JsFunction::createWithParameters(['element'])
     ->body("return element.textContent");
@@ -145,7 +145,7 @@ If an error occurs in Node, a `Node\FatalException` will be thrown and the proce
 To avoid that, you can ask Node to catch these errors by prepending your instruction with `->tryCatch`:
 
 ```php
-use Nesk\Rialto\Exceptions\Node;
+use NigelCunningham\Rialto\Exceptions\Node;
 
 try {
     $page->tryCatch->goto('invalid_url');

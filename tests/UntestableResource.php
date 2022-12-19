@@ -1,6 +1,6 @@
 <?php
 
-namespace Nesk\Puphpeteer\Tests;
+namespace NigelCunningham\Puphpeteer\Tests;
 
 class UntestableResource
 {

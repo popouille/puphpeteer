@@ -1,11 +1,11 @@
 <?php
 
-namespace Nesk\Puphpeteer\Tests;
+namespace NigelCunningham\Puphpeteer\Tests;
 
-use Nesk\Puphpeteer\Puppeteer;
-use Nesk\Rialto\Data\JsFunction;
+use NigelCunningham\Puphpeteer\Puppeteer;
+use NigelCunningham\Rialto\Data\JsFunction;
 use PHPUnit\Framework\ExpectationFailedException;
-use Nesk\Puphpeteer\Resources\ElementHandle;
+use NigelCunningham\Puphpeteer\Resources\ElementHandle;
 use Psr\Log\LoggerInterface;
 
 class PuphpeteerTest extends TestCase
@@ -120,13 +120,13 @@ class PuphpeteerTest extends TestCase
                 $incompleteTest = true;
             } else {
                 try {
-                    $this->assertInstanceOf("Nesk\\Puphpeteer\\Resources\\$name", $resource->value());
+                    $this->assertInstanceOf("NigelCunningham\\Puphpeteer\\Resources\\$name", $resource->value());
                 } catch (ExpectationFailedException $exception) {
                     $incompleteTest = true;
                 }
             }
         } else {
-            $this->assertInstanceOf("Nesk\\Puphpeteer\\Resources\\$name", $resource);
+            $this->assertInstanceOf("NigelCunningham\\Puphpeteer\\Resources\\$name", $resource);
         }
 
         if (!$incompleteTest) return;
