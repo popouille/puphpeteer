@@ -15,11 +15,15 @@
         {
             "name": "Johann Pardanaud",
             "email": "pardanaud.j@gmail.com"
+        },
+        {
+            "name": "Nigel Cunningham",
+            "email": "nigel@nigelcunningham.com.au"
         }
     ],
     "require": {
         "php": ">=7.3",
-        "nigelcunningham/rialto": "^1.2.0",
+        "nigelcunningham/rialto": "dev-dev",
         "psr/log": "^3.0.0",
         "vierbergenlars/php-semver": "^3.0.2"
     },
@@ -31,12 +35,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Nesk\\Puphpeteer\\": "src/"
+            "NigelCunningham\\Puphpeteer\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Nesk\\Puphpeteer\\Tests\\": "tests/"
+            "NigelCunningham\\Puphpeteer\\Tests\\": "tests/"
         }
     },
     "scripts": {
