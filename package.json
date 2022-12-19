@@ -6,7 +6,6 @@
     "php",
     "puppeteer",
     "headless-chrome",
-    "testing",
     "web",
     "developer-tools",
     "automation"
