@@ -1,5 +1,5 @@
 {
-    "name": "NigelCunningham/puphpeteer",
+    "name": "nigelcunningham/puphpeteer",
     "description": "A Puppeteer bridge for PHP, supporting the entire API.",
     "keywords": [
         "php",
