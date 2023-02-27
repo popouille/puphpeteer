@@ -21,11 +21,17 @@
             "email": "nigel@nigelcunningham.com.au"
         }
     ],
+    "repositories": [
+      {
+        "type": "vcs",
+        "url": "https://github.com/RobinDev/php-semver.git"
+      }
+    ],
     "require": {
         "php": ">=7.3",
         "nigelcunningham/rialto": "master",
         "psr/log": "^1.0 || ^2.0 || ^3.0",
-        "vierbergenlars/php-semver": "^3.0.3"
+        "vierbergenlars/php-semver": "dev-patch-1"
     },
     "require-dev": {
         "monolog/monolog": "^2.0",

@@ -1,5 +1,26 @@
 # PuPHPeteer
 
+**PHP 8.1 compatibility**:
+
+This package relies on php-semver, which is currently (28 Feb 2023) not patched with PHP 8.1 support. A patch is available at https://github.com/RobinDev/php-semver/tree/patch-1, which can be installed using composer in the following way:
+
+In your project that requires puphpeteer, add a custom repository:
+
+        "RobinDev/php-semver": {
+          "type": "vcs",
+          "url": "https://github.com/RobinDev/php-semver"
+        }
+
+Then composer require the upgraded versions of Puphpeteer, Rialto and php-semver:
+
+composer require nigelcunningham/puphpeteer:master nigelcunningham/rialto:master vierbergenlars/php-semver:dev-patch-1
+
+This will pull in the forked php-semver.
+
+I'm typing this having just completed getting the above steps to work for me. If furhter modifications are required, I'll fork php-semver too and modify the above.
+
+===
+
 <img src="https://user-images.githubusercontent.com/817508/100672192-dd258500-3361-11eb-845f-e8b5109752e4.png" style="max-width:100%;" width="190px" align="right">
 
 [![PHP Version](https://img.shields.io/packagist/php-v/nesk/puphpeteer.svg?style=flat-square)](http://php.net/)
